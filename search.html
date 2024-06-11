@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+        <figure>
+            <img src="img/spotify-logo.png" alt="" >
+            <img src="img/no-text.png" alt="" class="no-text">
+            <nav>
+                <!--homepage icon-->
+                <a href="index.html" id="homepage-icon">
+                    <i class='bx bxs-home-alt-2'></i><span>Homepage</span></a>
+                <a href=""><i class='bx bx-search' ></i><span>Search</span></a>
+                <a href=""><i class='bx bx-collection' ></i><span>Collection</span></a>
+                <a href=""><i class='bx bxs-playlist' ></i><span>Playlist</span></a>
+                <a href=""><i class='bx bx-heart' ></i><span>Favourite Songs</span></a>
+            </nav>
+        </figure>
+    </aside>
+
+    <main>
+        <header>
+            <form>
+                <div class="search">
+                    <div class="search-input">
+                      <input type="search" placeholder="Müzik arayın..." />
+                      <i class="bx bx-search"></i>
+                    </div>
+                  </div>
+                  <i class='bx bx-dots-horizontal-rounded' id="menu" ></i>
+                  <ul>
+                    <li>Premium</li>
+                    <li>Destek</li>
+                    <li>Oturum Aç</li>
+                    <li>Kayıt Ol</li>
+                  </ul>
+            </form>
+        </header>
+
+        <div class="songs">
+            <h2>Popüler</h2>
+            <div class="list">
+                 <!--
+                <div class="card">
+                   <figure>
+                        <img 
+                        src="https://i.scdn.co/image/ab67616d0000b273fc589aba546107329ad69c3b" 
+                        alt=""
+                        />
+                        <div class="play">
+                            <i class='bx bx-play' id="play-btn" ></i>
+                        </div>
+                    </figure>
+                    <h4>title</h4>
+                    <h4>title</h4> 
+                </div>
+                -->
+                <!--
+                <div class="card">
+                    
+                    <figure>
+                        <img 
+                        src="https://i.scdn.co/image/ab67616d0000b273fc589aba546107329ad69c3b" 
+                        alt=""
+                        />
+                        <div class="play">
+                            <i class='bx bx-play' id="play-btn" ></i>
+                        </div>
+                    </figure>
+                    <h4>title</h4>
+                    <h4>title</h4>
+                
+            </div>
+            -->
+        </div>
+    </main>
+    
+<div class="playing">
+    <div class="info">
+        <img src="https://i.scdn.co/image/ab67616d00001e020c13d3d5a503c84fcc60ae94" 
+        class="animate"    
+        id="info-img"  
+        alt="">
+        <div>
+            <p>şu an oynatılıyor</p>
+            <h3>title</h3>
+        </div>
+    </div>
+    <audio controls>
+        <source>
+    </audio>
+</div>
+
+    <script src="main.js" type="module"></script>
+   
+</body>
+</html>

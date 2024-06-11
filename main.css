@@ -1,0 +1,21 @@
+main {
+    background: #282828;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  header form {
+    display: flex;
+    padding: 15px 30px;
+    background: black;
+    margin: 10px;
+    gap: 40px;
+    border-radius: 50px;
+  }
+  header form #menu {
+    display: none;
+  }
+
+
+  
